@@ -13,7 +13,8 @@ public class MenuDTO {
 
 
     // 중요! 2. 4가지(기본생성자(1),(4), getter and setter, toString
-//    public MenuDTO(){               // 기본 생성자_& 모두 자료형 기본으로 설정되어 있다 ▼
+    public MenuDTO() {               // 기본 생성자_& 모두 자료형 기본으로 설정되어 있다 ▼
+    }
 
     public MenuDTO(int menu_code, String menu_name, int menu_price, int category_code, String orderable_status) {
         this.menu_code = menu_code;
